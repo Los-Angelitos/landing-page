@@ -1422,7 +1422,6 @@ section,
 .team .team-member .pic {
   overflow: hidden;
   width: 150px;
-  border-radius: 50%;
   flex-shrink: 0;
 }
 
@@ -2062,6 +2061,119 @@ section,
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
+#sweetmanager-footer {
+    width: 100%;
+    background-color: #0066cc;
+    color: white;
+    padding: 30px 8%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: Arial, sans-serif;
+}
+
+#sweetmanager-logo-section {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    margin-bottom: 15px;
+}
+
+#sweetmanager-logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+}
+
+#sweetmanager-logo-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 8px;
+}
+
+#sweetmanager-logo-text {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#sweetmanager-tagline {
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+#sweetmanager-address {
+    margin-top: 50px;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+#sweetmanager-subscription {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 15px;
+}
+
+#sweetmanager-email-form {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+#sweetmanager-email-input {
+    padding: 12px 15px;
+    width: 250px;
+    border: none;
+    border-radius: 25px;
+    font-size: 14px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+#sweetmanager-email-input::placeholder {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+#sweetmanager-subscribe-btn {
+    padding: 12px 20px;
+    margin-left: 10px;
+    border: 2px solid white;
+    border-radius: 25px;
+    background-color: transparent;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#sweetmanager-subscribe-btn:hover {
+    background-color: white;
+    color: #0066cc;
+}
+
+#sweetmanager-links-section {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-top: 15px;
+}
+
+#sweetmanager-links-column-1,
+#sweetmanager-links-column-2 {
+    margin-left: 40px;
+}
+
+#sweetmanager-links-column-1 a,
+#sweetmanager-links-column-2 a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    margin-bottom: 12px;
+    transition: opacity 0.3s ease;
+}
+
+#sweetmanager-links-column-1 a:hover,
+#sweetmanager-links-column-2 a:hover {
+    opacity: 0.8;
 }
