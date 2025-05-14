@@ -8,8 +8,6 @@
   <meta name="description" content="">
   <meta name="keywords" content="">
 
-  <!-- Icon HTML -->
-  <link rel="icon" href="./assets/img/sweetmanager-icon.png">
   <!-- Favicons -->
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
@@ -29,7 +27,7 @@
   <link href="assets/css/main.css" rel="stylesheet">
 
 </head>
- 
+
 <body class="index-page">
 
   <header id="header" class="header d-flex align-items-center fixed-top">
@@ -197,55 +195,55 @@
     </section><!-- /Skills Section -->
 
     <!-- Services Section -->
-<section id="services" class="services section light-background">
+    <section id="services" class="services section light-background">
 
-  <!-- Section Title -->
-  <div class="container section-title" data-aos="fade-up">
-    <h2>Services</h2>
-    <p>Our most precious services!</p>
-  </div><!-- End Section Title -->
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Services</h2>
+        <p>Our most precious services!</p>
+      </div><!-- End Section Title -->
 
-  <div class="container">
+      <div class="container">
 
-    <div class="row gy-4">
+        <div class="row gy-4">
 
-      <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
-        <div class="service-item position-relative">
-          <div class="icon"><i class="bi bi-activity icon"></i></div>
-          <h4><a href="" class="stretched-link">Subscription & Payment Management</a></h4>
-          <p>Offer flexible subscription plans and efficient payment operations.</p>
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-activity icon"></i></div>
+              <h4><a href="" class="stretched-link">Subscription & Payment Management</a></h4>
+              <p>Offer flexible subscription plans and efficient payment operations.</p>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-bounding-box-circles icon"></i></div>
+              <h4><a href="" class="stretched-link">Inventory Management</a></h4>
+              <p>Track and manage supplies, inventory levels, and procurement to maintain seamless hotel operations.</p>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-calendar4-week icon"></i></div>
+              <h4><a href="" class="stretched-link">Rooms Management</a></h4>
+              <p>Efficiently handle room details, bookings, and availability to streamline operations and enhance guest satisfaction.</p>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-broadcast icon"></i></div>
+              <h4><a href="" class="stretched-link">Staff Coordination</a></h4>
+              <p>Manage staff tasks and responsibilities with role-based access, ensuring smooth workflow and effective communication.</p>
+            </div>
+          </div>
+
         </div>
+
       </div>
 
-      <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
-        <div class="service-item position-relative">
-          <div class="icon"><i class="bi bi-bounding-box-circles icon"></i></div>
-          <h4><a href="" class="stretched-link">Inventory Management</a></h4>
-          <p>Track and manage supplies, inventory levels, and procurement to maintain seamless hotel operations.</p>
-        </div>
-      </div>
-
-      <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
-        <div class="service-item position-relative">
-          <div class="icon"><i class="bi bi-cloud-download icon"></i></div>
-          <h4><a href="" class="stretched-link">IoT Devices</a></h4>
-          <p>Easily configure your smart devices and provide the best comfort to your guests.</p>
-        </div>
-      </div>
-
-      <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
-        <div class="service-item position-relative">
-          <div class="icon"><i class="bi bi-collection icon"></i></div>
-          <h4><a href="" class="stretched-link">Rooms Management</a></h4>
-          <p>Efficiently handle room details, bookings, and availability to streamline operations and enhance guest satisfaction.</p>
-        </div>
-      </div>
-
-    </div>
-
-  </div>
-
-</section><!-- /Services Section -->
+    </section><!-- /Services Section -->
     
     <!-- Pricing Section -->
     <section id="pricing" class="pricing section light-background">
@@ -638,13 +636,23 @@
   <div id="sweetmanager-footer">
         <div id="sweetmanager-logo-section">
             <div id="sweetmanager-logo">
-                <img src="./assets/img/sweetmanager-icon.png" alt="SweetManager Logo" width="50" height="50">
+                <svg id="sweetmanager-logo-icon" viewBox="0 0 50 50" fill="white">
+                    <path d="M15,10 L35,10 L35,40 C35,42.76 32.76,45 30,45 L20,45 C17.24,45 15,42.76 15,40 L15,10 Z" stroke="white" stroke-width="2" fill="none"/>
+                    <path d="M10,15 L15,15 M10,25 L15,25 M10,35 L15,35" stroke="white" stroke-width="2"/>
+                </svg>
                 <div id="sweetmanager-logo-text">SweetManager</div>
             </div>
             <div id="sweetmanager-tagline">Empowering Change through smart technology</div>
             <div id="sweetmanager-address">
                 3824 Steele Street, Sanborton,<br>
                 New Jersey, 21871
+            </div>
+        </div>
+
+        <div id="sweetmanager-subscription">
+            <div id="sweetmanager-email-form">
+                <input type="email" id="sweetmanager-email-input" placeholder="E-mail">
+                <button id="sweetmanager-subscribe-btn">SUBSCRIBE</button>
             </div>
         </div>
 
